@@ -30,9 +30,13 @@ class CatalogController extends Controller
         return view('videos');
     }
 
+    function contact_search() {
+        return view('contact');
+    }
 
-
-
+    function contact_data() {
+        return view('contact');
+    }
 
 
 
